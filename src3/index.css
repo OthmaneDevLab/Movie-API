@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body_background:#000;
+    --body_color:#ffffff;
+    --heading_color:#3e0894;
+}
+[data-theme = "light"]{
+        --body_background:#ffffff;
+         --body_color:#080808;
+    --heading_color:#085c94;
+}
+body{
+    background-color:var(--body_background);
+    color:var(--body_color);
+}
